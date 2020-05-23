@@ -32,7 +32,13 @@ const RoomPreview = ({ room }) => {
           padding: 3rem;
         `}
       >
-        <h3>{title}</h3>
+        <h3
+          css={css`
+            font-size: 3rem;
+          `}
+        >
+          {title}
+        </h3>
         <p>{content}</p>
         <Button to={slug}>Ver Habitación</Button>
       </div>
