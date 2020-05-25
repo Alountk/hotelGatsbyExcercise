@@ -8,7 +8,6 @@ exports.createPages = async({ actions, graphql, reporter }) => {
             }
         }
    `);
-   //console.log(result.data.allDatoCmsHabitacion.nodes);
    if(result.errors){
        reporter.panic('No ha haábido resultados ', result.errors);
    }
