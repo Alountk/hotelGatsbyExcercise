@@ -19,8 +19,7 @@ const RoomList = styled.ul`
 `
 
 const IndexPage = () => {
-  const rooms = UseRooms()
-  console.log(rooms)
+  const rooms = UseRooms();
 
   return (
     <Layout>
